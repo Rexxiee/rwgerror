@@ -1,0 +1,125 @@
+ERROR22:19:41
+Chunk Holder Status - minecraft:features
+------------------------------
+Current Thread: Server thread
+PID: 22 | Suspended: false | Native: false | State: TIMED_WAITING
+Stack:
+java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+app//net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:144)
+app//net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:133)
+app//net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:499)
+app//net.minecraft.world.level.Level.getChunk(Level.java:426)
+app//net.minecraft.world.level.Level.getBlockState(Level.java:765)
+app//net.minecraft.world.level.Level.neighborChanged(Level.java:694)
+app//net.minecraft.world.level.Level.updateNeighborsAt(Level.java:658)
+app//net.minecraft.server.level.ServerLevel.blockUpdated(ServerLevel.java:1949)
+app//net.minecraft.world.level.Level.notifyAndUpdatePhysics(Level.java:561)
+app//net.minecraft.world.level.Level.setBlock(Level.java:528)
+app//net.minecraft.world.level.Level.setBlock(Level.java:437)
+app//org.bukkit.craftbukkit.v1_17_R1.block.CraftBlock.setTypeAndData(CraftBlock.java:195)
+app//org.bukkit.craftbukkit.v1_17_R1.block.CraftBlock.setBlockData(CraftBlock.java:179)
+app//org.bukkit.craftbukkit.v1_17_R1.block.CraftBlock.setBlockData(CraftBlock.java:173)
+RealisticWorldGenerator-4.30.0.jar//net.sourcewriters.spigot.rwg.legacy.api.block.impl.DefaultMinecraftPlacer.placeBlock(SourceFile:28)
+RealisticWorldGenerator-4.30.0.jar//net.sourcewriters.spigot.rwg.legacy.api.block.impl.BlockDataPlacerManagerImpl.setBlock(SourceFile:117)
+RealisticWorldGenerator-4.30.0.jar//net.sourcewriters.spigot.rwg.legacy.helloThereHowAreYouDoing.palaeoethnologist.ulama(SourceFile:250)
+RealisticWorldGenerator-4.30.0.jar//net.sourcewriters.spigot.rwg.legacy.helloThereHowAreYouDoing.palaeoethnologist$$Lambda$6102/0x0000000801e1e8e0.run(Unknown Source)
+RealisticWorldGenerator-4.30.0.jar//net.sourcewriters.spigot.rwg.legacy.helloThereHowAreYouDoing.draughty.dirham(SourceFile:132)
+RealisticWorldGenerator-4.30.0.jar//net.sourcewriters.spigot.rwg.legacy.helloThereHowAreYouDoing.draughty$$Lambda$6103/0x0000000801e1eb08.call(Unknown Source)
+RealisticWorldGenerator-4.30.0.jar//net.sourcewriters.spigot.rwg.legacy.helloThereHowAreYouDoing.cholophaein.run(SourceFile:30)
+app//org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftTask.run(CraftTask.java:101)
+app//org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+app//net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1490)
+app//net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:479)
+app//net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1406)
+app//net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1188)
+app//net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316)
+app//net.minecraft.server.MinecraftServer$$Lambda$3637/0x000000080137b568.run(Unknown Source)
+java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+------------------------------
+--- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+------------------------------
+22:19:46
+Chunk Ticket Status - minecraft:full
+Chunk Holder Status - minecraft:features
+------------------------------
+Current Thread: Server thread
+PID: 22 | Suspended: false | Native: false | State: RUNNABLE
+Stack:
+java.base@16.0.1/java.lang.Thread.yield(Native Method)
+app//net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:143)
+app//net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:133)
+app//net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:499)
+app//net.minecraft.world.level.Level.getChunk(Level.java:426)
+app//net.minecraft.world.level.Level.getBlockState(Level.java:765)
+app//net.minecraft.world.level.Level.neighborChanged(Level.java:694)
+app//net.minecraft.world.level.Level.updateNeighborsAt(Level.java:661)
+app//net.minecraft.server.level.ServerLevel.blockUpdated(ServerLevel.java:1949)
+app//net.minecraft.world.level.Level.notifyAndUpdatePhysics(Level.java:561)
+app//net.minecraft.world.level.Level.setBlock(Level.java:528)
+app//net.minecraft.world.level.Level.setBlock(Level.java:437)
+app//org.bukkit.craftbukkit.v1_17_R1.block.CraftBlock.setTypeAndData(CraftBlock.java:195)
+app//org.bukkit.craftbukkit.v1_17_R1.block.CraftBlock.setBlockData(CraftBlock.java:179)
+app//org.bukkit.craftbukkit.v1_17_R1.block.CraftBlock.setBlockData(CraftBlock.java:173)
+RealisticWorldGenerator-4.30.0.jar//net.sourcewriters.spigot.rwg.legacy.api.block.impl.DefaultMinecraftPlacer.placeBlock(SourceFile:28)
+RealisticWorldGenerator-4.30.0.jar//net.sourcewriters.spigot.rwg.legacy.api.block.impl.BlockDataPlacerManagerImpl.setBlock(SourceFile:117)
+RealisticWorldGenerator-4.30.0.jar//net.sourcewriters.spigot.rwg.legacy.helloThereHowAreYouDoing.palaeoethnologist.ulama(SourceFile:250)
+RealisticWorldGenerator-4.30.0.jar//net.sourcewriters.spigot.rwg.legacy.helloThereHowAreYouDoing.palaeoethnologist$$Lambda$6102/0x0000000801e1e8e0.run(Unknown Source)
+RealisticWorldGenerator-4.30.0.jar//net.sourcewriters.spigot.rwg.legacy.helloThereHowAreYouDoing.draughty.dirham(SourceFile:132)
+RealisticWorldGenerator-4.30.0.jar//net.sourcewriters.spigot.rwg.legacy.helloThereHowAreYouDoing.draughty$$Lambda$6103/0x0000000801e1eb08.call(Unknown Source)
+RealisticWorldGenerator-4.30.0.jar//net.sourcewriters.spigot.rwg.legacy.helloThereHowAreYouDoing.cholophaein.run(SourceFile:30)
+app//org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftTask.run(CraftTask.java:101)
+app//org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+app//net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1490)
+app//net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:479)
+app//net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1406)
+app//net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1188)
+app//net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316)
+app//net.minecraft.server.MinecraftServer$$Lambda$3637/0x000000080137b568.run(Unknown Source)
+java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+------------------------------
+--- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+------------------------------
+22:19:51
+Chunk Holder Status - minecraft:features
+------------------------------
+Current Thread: Server thread
+PID: 22 | Suspended: false | Native: false | State: TIMED_WAITING
+Stack:
+java.base@16.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+java.base@16.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+app//net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:144)
+app//net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:133)
+app//net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:499)
+app//net.minecraft.world.level.Level.getChunk(Level.java:426)
+app//net.minecraft.world.level.Level.getBlockState(Level.java:765)
+app//net.minecraft.world.level.Level.neighborChanged(Level.java:694)
+app//net.minecraft.world.level.Level.updateNeighborsAt(Level.java:657)
+app//net.minecraft.server.level.ServerLevel.blockUpdated(ServerLevel.java:1949)
+app//net.minecraft.world.level.Level.notifyAndUpdatePhysics(Level.java:561)
+app//net.minecraft.world.level.Level.setBlock(Level.java:528)
+app//net.minecraft.world.level.Level.setBlock(Level.java:437)
+app//org.bukkit.craftbukkit.v1_17_R1.block.CraftBlock.setTypeAndData(CraftBlock.java:195)
+app//org.bukkit.craftbukkit.v1_17_R1.block.CraftBlock.setBlockData(CraftBlock.java:179)
+app//org.bukkit.craftbukkit.v1_17_R1.block.CraftBlock.setBlockData(CraftBlock.java:173)
+RealisticWorldGenerator-4.30.0.jar//net.sourcewriters.spigot.rwg.legacy.api.block.impl.DefaultMinecraftPlacer.placeBlock(SourceFile:28)
+RealisticWorldGenerator-4.30.0.jar//net.sourcewriters.spigot.rwg.legacy.api.block.impl.BlockDataPlacerManagerImpl.setBlock(SourceFile:117)
+RealisticWorldGenerator-4.30.0.jar//net.sourcewriters.spigot.rwg.legacy.helloThereHowAreYouDoing.palaeoethnologist.ulama(SourceFile:250)
+RealisticWorldGenerator-4.30.0.jar//net.sourcewriters.spigot.rwg.legacy.helloThereHowAreYouDoing.palaeoethnologist$$Lambda$6102/0x0000000801e1e8e0.run(Unknown Source)
+RealisticWorldGenerator-4.30.0.jar//net.sourcewriters.spigot.rwg.legacy.helloThereHowAreYouDoing.draughty.dirham(SourceFile:132)
+RealisticWorldGenerator-4.30.0.jar//net.sourcewriters.spigot.rwg.legacy.helloThereHowAreYouDoing.draughty$$Lambda$6103/0x0000000801e1eb08.call(Unknown Source)
+RealisticWorldGenerator-4.30.0.jar//net.sourcewriters.spigot.rwg.legacy.helloThereHowAreYouDoing.cholophaein.run(SourceFile:30)
+app//org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftTask.run(CraftTask.java:101)
+app//org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+app//net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1490)
+app//net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:479)
+app//net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1406)
+app//net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1188)
+app//net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316)
+app//net.minecraft.server.MinecraftServer$$Lambda$3637/0x000000080137b568.run(Unknown Source)
+java.base@16.0.1/java.lang.Thread.run(Thread.java:831)
+------------------------------
+--- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+------------------------------
+WARN22:19:52
+Can't keep up! Is the server overloaded? Running 22867ms or 457 ticks behind
